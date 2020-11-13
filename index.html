@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/material-icons.css">
+    <link rel="stylesheet" href="css/NotoSansKr.css">
+    <link rel="stylesheet" href="css/weather-icons.css">
+    <link rel="stylesheet" href="css/weather-icons-wind.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery.min.js"></script>
+    <script src="script/slick.js"></script>
+    <script src="script/custom.js"></script>
+</head>
+<body>
+<header>
+    <span class="material-icons">search</span>
+        <input type="search" name="city" id="search-city" class="search-city">
+</header>
+<main>
+    <div class="today-wather">
+        <img src="images/13d.png" alt="img">
+    </div>
+    <div class="t-weather">
+        <p class="w-date">
+            9월 17일 (목)
+        </p>
+        <h1 class="city">
+            GIMPO
+        </h1>
+        <p class="temp">
+            25ºC
+        </p>
+        <p class="weather">
+            Sunny
+        </p>
+    </div>
+    <div class="detail-box">
+        <ul class="detail-title">
+            <li><span class="overcast"></span></li>
+            <li><label>체감온도 : </label><span class="feels_like"></span></li>
+            <li><label>최저온도 : </label><span class="temp_min"></span></li>
+            <li><label>최고온도 : </label><span class="temp_max"></span></li>
+            <li><label>해뜨는시각 : </label><span class="sunrise"></span></li>
+            <li><label>해지는시각 : </label><span class="sunset"></span></li>
+            <li><label>습도 : </label><span class="humidity"></span></li>
+            <li><label>바람 : </label><span class="wind"></span></li>
+        </ul>
+    </div>
+</main>
+<footer>
+    <div class="five-weather">
+        <!--loop-->
+        <!--this count-->
+        <div class="five-temp">
+            <div class="five-date">
+                <span class="five-date">15일</span>
+                <span class="five-week">월</span>
+            </div>
+            <div class="five-time">
+                오후 1시
+            </div>
+            <h1 class="f-weather"><i class="wi wi-day-sunny"></i></h1>
+            <p class="f-temp">25ºC</p>
+        </div>
+        <!--/this count-->
+                <!--this count-->
+                <div class="five-temp">
+                    <div class="five-date">
+                        <span class="five-date">15일</span>
+                        <span class="five-week">월</span>
+                    </div>
+                    <div class="five-time">
+                        오후 1시
+                    </div>
+                    <h1 class="f-weather"><i class="wi wi-day-sunny"></i></h1>
+                    <p class="f-temp">25ºC</p>
+                </div>
+                <!--/this count-->        
+                <!--this count-->
+        <div class="five-temp">
+            <div class="five-date">
+                <span class="five-date">15일</span>
+                <span class="five-week">월</span>
+            </div>
+            <div class="five-time">
+                오후 1시
+            </div>
+            <h1 class="f-weather"><i class="wi wi-day-sunny"></i></h1>
+            <p class="f-temp">25ºC</p>
+        </div>
+        <!--/this count-->        
+        <!--this count-->
+        <div class="five-temp">
+            <div class="five-date">
+                <span class="five-date">15일</span>
+                <span class="five-week">월</span>
+            </div>
+            <div class="five-time">
+                오후 1시
+            </div>
+            <h1 class="f-weather"><i class="wi wi-day-sunny"></i></h1>
+            <p class="f-temp">25ºC</p>
+        </div>
+        <!--/this count-->        
+        <!--this count-->
+        <div class="five-temp">
+            <div class="five-date">
+                <span class="five-date">15일</span>
+                <span class="five-week">월</span>
+            </div>
+            <div class="five-time">
+                오후 1시
+            </div>
+            <h1 class="f-weather"><i class="wi wi-day-sunny"></i></h1>
+            <p class="f-temp">25ºC</p>
+        </div>
+        <!--/this count-->
+        <!--/loop-->
+    </div>
+</footer> 
+</body>
+</html>
