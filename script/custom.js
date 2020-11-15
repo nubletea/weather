@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
     //main.html scroll bar
     function scroll(ME){
         let hey=ME.getBoundingClientRect().height()
@@ -109,14 +109,12 @@ $(function(){
                 if(overcast.indexOf('구름')>=0){
                     $('.today-wather img').attr('src','images/02n.png');
                 }
-               /*
                var utime = Number(rs.list[0].dt)*1000;
                var date = new Date(utime);
                var year = date.getFullYear());
                var month
                var day
                var week
-                */ 
                let ArrayHtml=new Array(); 
                for(let i=0;i<40;i++){ 
                    let dt=new Date(Number(rs.list[i].dt)*1000);
@@ -260,4 +258,4 @@ function getWeater(ic){
 }
    
  
-});
+});*/
